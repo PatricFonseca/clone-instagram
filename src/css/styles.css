@@ -1,0 +1,72 @@
+.container {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.header--menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding: 20px 20px 20px;
+}
+
+.header--icon img {
+	width: 30px;
+	height: 30px;
+}
+
+.header--logo img {
+	width: 140px;
+	height: 30px;
+}
+
+.header--direct-message i {
+	width: 40px;
+	height: 40px;
+	font-size: 25px;
+}
+
+.stories {
+	margin-left: 10px;
+	display: flex;
+}
+.stories--storie img {
+	border-radius: 50%;
+	width: 70px;
+	margin-right: 10px;
+}
+
+.content--profile {
+	display: flex;
+	margin-left: 10px;
+	margin-top: 30px;
+	padding-left: 25px;
+}
+.content--profile img {
+	width: 60px;
+	border-radius: 50%;
+}
+
+.content--profile span {
+	font-weight: bold;
+	font-size: 18px;
+	margin: auto 0;
+	padding-left: 5px;
+}
+
+.content--post {
+	padding: 25px 3%;
+}
+
+.content--image {
+	width: 95%;
+	border-radius: 20px 20px 0;
+}
+
+.content--reactions {
+	display: flex;
+}
+
+.content--reactions i {
+	font-size: 30px;
+}
